@@ -106,7 +106,7 @@ const getWeatherImage = (weatherMain) => {
     case "Rain":
       return "./img/rain.png";
     case "Snow":
-      return "/img/snow.png";
+      return "./img/snow.png";
     case "Clouds":
       return "./img/cloud.png";
     case "Mist":
@@ -114,7 +114,7 @@ const getWeatherImage = (weatherMain) => {
     case "Storm":
       return "./img/storm.png";
     default:
-      return "img/sunny.png";
+      return "./img/sunny.png";
   }
 };
 const errorWeather = () => {
