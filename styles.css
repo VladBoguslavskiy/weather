@@ -357,3 +357,79 @@ body {
 	z-index: 2;
 	cursor: pointer;
 }
+
+
+
+
+/* Медіа-запити для мобільних пристроїв */
+@media (max-width: 768px) {
+	
+	.container {
+		 width: 90%;
+		 padding: 15px;
+		 height: 480px;
+	}
+	.detailes__container{
+		flex-direction: column;
+	}
+	.search__box input {
+		 font-size: 16px;
+		 padding: 0 36px 0 38px;
+	}
+
+	.search__box button {
+		 padding: 0 10px 0 5px;
+	}
+
+	.weather__box .temperature {
+		 font-size: 42px;
+		 margin: 0px 0 6px -20px;
+	}
+
+	.weather__box img {
+		 width: 40%;
+	}
+
+	.weather__detailes i {
+		 font-size: 36px;
+	}
+
+	.weather__detailes span {
+		 font-size: 16px;
+	}
+
+	.weather__more {
+		 left: 50%;
+		 bottom: 5px;
+		 transform: translateX(-50%);
+	}
+
+	.container__detailes {
+		 width: 90%;
+		 padding: 15px;
+		 height: 100%;
+	}
+
+	.item-detailes {
+		 flex: 1 0 100%;
+		 margin: 10px 0;
+	}
+
+	.item-detailes__img {
+		 width: 30%;
+	}
+	.weather{
+	  padding-top: 50px;
+	}
+	.weather__detailes .humidity{
+	  padding-left: 0;
+	}
+	.weather__detailes .wind{
+	  padding-right: 0;
+	}
+	.item-detailes:not(:last-child){
+	  border-bottom: 2px solid rgb(163, 158, 158);
+	  padding-bottom: 20px;
+	}
+
+}
