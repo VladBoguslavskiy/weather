@@ -102,17 +102,17 @@ const displayWeather = (data, city) => {
 const getWeatherImage = (weatherMain) => {
   switch (weatherMain) {
     case "Clear":
-      return "/img/sunny.png";
+      return "./img/sunny.png";
     case "Rain":
-      return "/img/rain.png";
+      return "./img/rain.png";
     case "Snow":
       return "/img/snow.png";
     case "Clouds":
-      return "/img/cloud.png";
+      return "./img/cloud.png";
     case "Mist":
-      return "/img/mist.png";
+      return "./img/mist.png";
     case "Storm":
-      return "/img/storm.png";
+      return "./img/storm.png";
     default:
       return "img/sunny.png";
   }
