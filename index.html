@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/styles.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<title>Weather</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container ">
+			<div class="search__box">
+				<i class='bx bxs-map'></i>
+				<input type="text" placeholder="Виберіть своє місто">
+				<button class="bx bx-search-alt"></button>
+			</div>
+			<div class="weather__box">
+				<div class="box">
+					<div class="info__weather">
+						<div class="weather">
+							<h2 class="city"></h2>
+							<h2 class="country"></h2>
+							<img src="/img/sunny.png" alt="">
+							<p class="temperature">0<span>°C</span></p>
+							<p class="description"></p>
+							<p class="today"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="weather__detailes">
+				<div class="humidity">
+					<i class='bx bx-water'></i>
+					<div class="text">
+						<div class="info__humidity">
+							<span>0%</span>
+						</div>
+						<p>Вологість </p>
+					</div>
+				</div>
+				<div class="wind">
+					<i class='bx bx-wind' ></i>
+					<div class="text">
+						<div class="info__wind">
+							<span>0Км/год</span>
+						</div>
+						<p>Вітер</p>
+					</div>
+				</div>
+			</div>
+			<div class="weather__more">
+				<p>Більше</p>
+				<i class='bx bx-chevrons-down'></i>
+			</div>
+			<div class="not__found">
+				<div class="box">
+					<img src="/img/not-found.png" alt="">
+					<p>Упс... Локація не знайдена</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container__detailes">
+			<span class="close__detailes"></span>
+			<div class="detailes__container">
+
+			</div>
+		</div>
+	</div>
+	<script src="/js/script.js">
+	</script>
+
+</body>
+</html>
