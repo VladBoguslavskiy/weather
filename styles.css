@@ -365,7 +365,6 @@ body {
 @media (max-width: 768px) {
 	
 	.container {
-		 width: 90%;
 		 padding: 15px;
 		 height: 480px;
 	}
